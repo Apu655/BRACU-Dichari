@@ -1,6 +1,4 @@
 import '../styles/globals.css'
-import "../styles/style.css"
-import "../styles/contact.css"
 import {motion,AnimatePresence} from 'framer-motion'
 import type { AppProps } from 'next/app'
 

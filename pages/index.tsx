@@ -210,7 +210,7 @@ const Home: NextPage = () => {
 
               <div className='flex lg:px-0 lg:flex-row-reverse flex-col-reverse pb-7'>
                 <div  className='overflow-hidden lg:w-[50%] border-4 flex-inline shadow-xl rounded mx-auto'>
-              <img className="  hover:scale-110 w-full h-full lg:py-0 px-0 rounded-md   transition-all ease-out duration-300"src="dichari_rover.jpg"/>
+              <img className="hover:scale-110 w-full h-full lg:py-0 px-0 rounded-md transition-all ease-out duration-300"src="dichari_rover.jpg"/>
               </div>
               <div className='lg:w-[50%]'>
                 <h3 className='text-4xl text-center'>OUR DRONE </h3>
