@@ -213,7 +213,7 @@ input, textarea {
   font-size: clamp(15px, 1.5vw, 18px);
 }
 
-input:focus+label, 
+/* input:focus+label, 
 input:valid+label, 
 textarea:focus+label, 
 textarea:valid+label {
@@ -221,7 +221,7 @@ textarea:valid+label {
   color: #777;
   top: -20px;
   transition: all .225s ease;
-}
+} */
 
 .submit-btn {
   background-color: #fd917e;
