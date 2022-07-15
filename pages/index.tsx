@@ -111,7 +111,7 @@ const Home: NextPage = () => {
                 {/* <p className='font-bold text-xl'>Welcome</p>
                 <h1 className='text-4xl font-extrabold'>BRACU DICHARI</h1> */}
                 
-                <h3 className='font-serif text-blue-500 text-6xl dichari-text'>BRACU DICHARI</h3>
+                <h3 className='font-serif text-blue-500 text-3xl font-semibold lg:font-normal dichari-text lg:text-6xl'>BRACU DICHARI</h3>
 
                 {/* <img className='object-contain h-[400px]' src="BRACU DICHARI.gif"/> */}
               </motion.div>
