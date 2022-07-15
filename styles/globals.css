@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer base{
+  body{
+    @apply bg-[#000000] text-gray-300;
+  }
+} */
+.dichari-text{
+  -webkit-box-reflect: below 0.5px linear-gradient(transparent,rgb(7, 1, 1,0.2));
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,18%,20%,30%{
+    color: #3E8AED;
+    text-shadow:none;
+  }
+  50%{
+    color:#fff;
+    text-shadow:0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+  }
+  80%{
+    color:#fff;
+    text-shadow:0 0 160px #03bcf4;
+
+  }
+  
+}

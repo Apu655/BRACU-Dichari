@@ -4,7 +4,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'dichari-bg':"url('/dichar-bg.jpg')",
+      },
+    },
   },
-  plugins: [],
+  variants:{
+    extend:{
+      lineClamp:["hover"],
+    },
+  },
+  plugins: [require("@tailwindcss/line-clamp")],
 }
