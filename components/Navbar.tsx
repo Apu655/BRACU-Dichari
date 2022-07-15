@@ -89,19 +89,19 @@ export default function Navbar({scroll}:Props) {
         <div className='lg:hidden flex flex-col px-[2%] py-1 text-white'>
                  <button onClick={()=>{setIsMenuOpen(!isMenuOpen)}}><MenuIcon className='h-10 w-10 '/></button>
                  <div className={`${isMenuOpen?"flex-inline scale-y-100":"hidden"} flex flex-col space-y-5 pt-3 px-2 text-2xl transition-all`}>
-                    <Link href=''>
+                    <Link href='/'>
                         <a href="#" className='relative group text-md  hover:text-white transition-all duration-300 '>
                             Home
                             
                         </a>
                         </Link>
-                        <Link href='#'>
+                        <Link href='#1'>
                         <a href="#" className='group relative text-md hover:text-white transition-all duration-300 '>
                             Updates
                         </a>
                         </Link>
 
-                        <Link href='#'>
+                        <Link href='/contact'>
                         <a href="#" className='group relative text-md hover:text-white transition-all duration-300'>
                             Contact Us
                     
