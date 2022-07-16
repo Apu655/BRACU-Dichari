@@ -40,8 +40,8 @@ const Home: NextPage = () => {
     
     <div className="">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>BRACU DICHARI</title>
+        <link rel="icon" href="Dichari Official Logo.png" />
       </Head>
       {/* Loading screen start */}
       
