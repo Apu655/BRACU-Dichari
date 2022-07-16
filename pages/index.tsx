@@ -50,44 +50,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Loading screen start */}
-      {isLoading?(
-        <motion.div
-        className="flex flex-col justify-center bg-black min-h-screen items-center"
-        initial={{
-          opacity:1,
-        }}
-        animate={{
-          opacity:0,
-        }}
-        exit={{
-          opacity:0,
-        }}
-        transition={{
-          delay:2.7,
-          duration:0.5,
-        }}
-        >
-          <img className="h-24 w-24 transition animate-bounce duration-[1000]"src="Drone.png"/>
-          <p className='text-white animate-pulse text-2xl font-serif font-bold'>BRACU DICHARI</p>
-          <div className='my-2 relative w-48 h-2 border border-blue-500 rounded'>
-            <motion.div
-             style={{ originX: 0}}
-             initial={{
-               scaleX:0
-             }}
-             animate={{
-               scaleX:1
-             }}
-             transition={{
-               duration:2.5
-             }}
-             className='absolute h-1 bg-gradient-to-br from-gray-400 to-blue-300 w-[100%] transition-all origin-left'></motion.div>
-            </div>
-        </motion.div>
-        // Loading Screen end
-        
-      ):
-      (<div className=''>
+      
+      <div className=''>
         <Navbar scroll={true}/>
         
         <div className="curve">
@@ -118,7 +82,7 @@ const Home: NextPage = () => {
               <motion.div 
               initial={{x:500}}
               animate={{x:0}}
-              className=''><img className='object-contain hover:object-scale-down h-[100%] w-60 animate-pulse' src= "https://c.tenor.com/CigpzapemsoAAAAi/hi-robot.gif"/> </motion.div>
+              className=''><img className='dichari-logo object-contain hover:object-scale-down h-full w-96 animate-pulse hover:scale-125 transition-all duration-300 ease-in' src= "Dichari Official Logo.png"/> </motion.div>
               
             </div>
             </main>
@@ -228,8 +192,8 @@ const Home: NextPage = () => {
         </section>
         <Footer/>
         
-      </div>)
-      }
+      </div>
+      
     </div>
   )
 }

@@ -10,10 +10,18 @@
 .dichari-text{
   -webkit-box-reflect: below 0.5px linear-gradient(transparent,rgb(7, 1, 1,0.2));
   outline: none;
-  animation: animate 5s linear infinite;
+  /* color:#fff; */
+  color:#03bcf4;
+    /* text-shadow:0 0 10px #03bcf4,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 160px #fff,
+    0 0 200px #fff; */
+  
 }
 
-@keyframes animate {
+/* @keyframes animate {
   0%,18%,20%,30%{
     color: #3E8AED;
     text-shadow:none;
@@ -32,7 +40,7 @@
 
   }
   
-}
+} */
 
 
 .custom-shape-divider-top-1655460723 {
@@ -213,15 +221,6 @@ input, textarea {
   font-size: clamp(15px, 1.5vw, 18px);
 }
 
-/* input:focus+label, 
-input:valid+label, 
-textarea:focus+label, 
-textarea:valid+label {
-  font-size: clamp(13px, 1.3vw, 16px);
-  color: #777;
-  top: -20px;
-  transition: all .225s ease;
-} */
 
 .submit-btn {
   background-color: #fd917e;
@@ -267,4 +266,14 @@ textarea:valid+label {
     width: 38px;
     height: 38px;
   }
+}
+
+
+
+.dichari-logo {
+  transform: scale(1.1, 1.1);
+  filter: 
+    hue-rotate(350deg)
+    drop-shadow(2px 4px 4px rgb(22, 121, 220))
+    sepia(0.3);
 }
