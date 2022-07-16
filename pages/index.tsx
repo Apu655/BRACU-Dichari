@@ -61,11 +61,11 @@ const Home: NextPage = () => {
           <main className="min-h-[526px]">
 
 
-            <div className='flex lg:justify-evenly justify-center items-center lg:flex-row flex-col lg:h-[400px] h-[500px]'>
+            <div className='flex space-y-10 lg:space-y-0 lg:justify-evenly justify-center items-center lg:flex-row flex-col lg:h-[400px] h-[500px]'>
               <motion.div 
               initial={{x:-400}}
               animate={{x:0}}
-              className='flex flex-col items-center'>
+              className='flex flex-col  items-center'>
                 {/* <p className='font-bold text-xl'>Welcome</p>
                 <h1 className='text-4xl font-extrabold'>BRACU DICHARI</h1> */}
                 
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
               <motion.div 
               initial={{x:500}}
               animate={{x:0}}
-              className=''><img className='dichari-logo object-contain hover:object-scale-down h-full w-96 animate-pulse hover:scale-125 transition-all duration-300 ease-in' src= "Dichari Official Logo.png"/> </motion.div>
+              className=''><img className='dichari-logo object-contain hover:object-scale-down h-full lg:w-96 w-72 animate-pulse lg:hover:scale-125 transition-all duration-300 ease-in' src= "Dichari Official Logo.png"/> </motion.div>
               
             </div>
             </main>
