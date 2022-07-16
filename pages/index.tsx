@@ -66,12 +66,11 @@ const Home: NextPage = () => {
               initial={{x:-400}}
               animate={{x:0}}
               className='flex flex-col  items-center'>
-                {/* <p className='font-bold text-xl'>Welcome</p>
-                <h1 className='text-4xl font-extrabold'>BRACU DICHARI</h1> */}
+            
                 
-                <h3 className='font-serif text-blue-500 text-3xl font-semibold lg:font-normal dichari-text lg:text-6xl'>BRACU DICHARI</h3>
+                <h3 className='font-serif !text-gray-600 text-3xl font-semibold lg:font-normal dichari-text lg:text-6xl'>BRACU DICHARI</h3>
 
-                {/* <img className='object-contain h-[400px]' src="BRACU DICHARI.gif"/> */}
+
               </motion.div>
               <motion.div 
               initial={{x:500}}
