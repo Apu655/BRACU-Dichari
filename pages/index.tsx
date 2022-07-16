@@ -23,14 +23,8 @@ import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
 
-  const [isLoading,setIsLoading] = useState(true)
   const [isAnimate,setIsAnimate] = useState({anime_1:false,anime_2:false})
   const [isMobile,setIsMobile] = useState(false)
-  useEffect(()=>{
-    setTimeout(()=>{
-      setIsLoading(!isLoading)
-    },3000)
-  },[])
   useEffect(()=>{
     window.addEventListener('scroll',()=>{
       console.log(isAnimate)
